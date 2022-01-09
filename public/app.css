@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    height: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember-box {
+    display: flex;
+    align-items: center;
+}
+
+.page-title {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.page-title h1 {
+    margin-right: 20px;
+}
+
+.top-btn {
+    position: absolute;
+    top: 10px;
+}
+
+.top-right-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#back-btn {
+    left: 10px;
+}
+
+#theme-btn {
+    right: 10px;
+    z-index: 99;
+}
+
+#logout-btn {
+    right: 80px;
+}
+
+#edit-btn {
+    right: 70px;
+}
+
+.contacts-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-container a {
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    position: relative;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-container a i,
+.contact-container button i {
+    margin-right: 0;
+}
+
+.contact-container i {
+    margin-right: 10px;
+}
+
+a.sul-btn {
+    display: flex;
+}
